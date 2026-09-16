@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.cabecera{
+    background: #000;
+    display: flex;
+    height: 10%;
+}
+
+.logo{
+    width: 30%;
+    margin-left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.imglogo{
+    box-shadow: 1px 1px 14px black;
+}
+
+.menu{
+    width: 100%;
+    text-align: right;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.menu ul{
+    margin: 20px 0px;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    color: #bc0007;
+    text-decoration: none;
+}
+
+.contenido{
+    background-image: url(https://img.magnific.com/foto-gratis/renderizacion-3d-modelo-casa_23-2150799681.jpg?semt=ais_hybrid&w=740&q=80) ;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Indie Flower', cursive;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    height: 92%;
+    background-color: #000;
+}
+
+.nom1{
+    background-color: rgba(188, 0, 7, 0.8);
+    width: 16%;
+    padding: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+.nom2{
+    background-color: rgba(188, 0, 7, 0.8);
+    width: 6%;
+    padding: 10px;
+    position: absolute;
+    top: 219px;
+    margin-left: 109.281px;
+}
+
+.mision{
+    background: rgba(255, 255, 255, 0.75);
+    width: 34%;
+    font-family: 'Josefin Slab' serif;
+    font-size: 20px;
+    color: black;
+    padding: 3%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    border-bottom-right-radius: 150px;
+}
+
+.vision{
+    background: rgba(0, 0, 0, 0.7);
+    width: 26%;
+    font-family: 'Josefin Slab' serif;
+    font-size: 20px;
+    color: white;
+    padding: 2%;
+    right: 0;
+    position: absolute;
+    top: 15%;
+}
+
+p{
+    margin:0;
+}
+
+p ::selection{
+    background: #bc0007;
+    color: white;
+    text-shadow: 1px 1px #bc0007;
+}
+
+.pie{
+    color: white;
+    position: absolute;
+    top: 96%;
+    width: 98%;
+    text-align:right ;
+    padding-right: 2%;
+}
+
+.Ccontenido{
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    font-size: 40px;
+    color:white;
+    width: 100%;
+    height: 92%;
+    background-color: #000;
+}
+
+.contacto{
+    background-color: rgba(188, 0, 7, 0.8);
+    width: 19%;
+    padding: 10px;
+    position: absolute;
+    top: 140px;
+}
+
+.contacto p{
+    border-left: 2px solid white;
+    padding-left: 15px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.tcontacto{
+    border-bottom: 2px solid white;
+}
+
+.piecontacto{
+    position: absolute;
+    top: 96%;
+    width: 98%;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.forms{
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    width: 40%;
+    font-weight: bold !important;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 30px;
+    color:black;
+    border-radius: 10px;;
+}
+
+.tregistro{
+    text-align: center;
+}
+
+.col-sm-2{
+    width: 40% !important;
+    font-weight: bold !important;
+}
+
+.col-sm-10{
+    width: 60% !important;
+}
+
+.btn-primary {
+    background-color: #337ab7 !important;
+    border-color: #2e6da4 !important;
+    color: #ffffff !important;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 2px;
+}
+
