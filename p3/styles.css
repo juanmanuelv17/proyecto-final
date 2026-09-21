@@ -17,20 +17,22 @@ header{
 }
 
 .Cafe {
-    padding: 20px;
+    padding: 15px;
     margin-left: 100px;
+    color: #2b1909;
+    display: flex;
 }
 
 .botones{
     display: flex;
-    gap: 2rem;
+    gap: 20px;
     padding: 0 20px;
     
 }
 
 .botones a{
     text-decoration: none;
-    color: black;
+    color: #2b1909;
     font-weight: bold;
     padding: 10px;
 }
@@ -42,10 +44,13 @@ header{
 }
 
 .slogan{
-    padding-top: 70px ;
+    padding-top: 66px ;
     padding-left: 150px;
-    background: rgb(250, 239, 227);
-
+    background: #faefe3;
+    color: #2b1909;
+    flex-direction: row;
+    background: linear-gradient(to right, #faefe3, white);
+    background-position:cover ;
 }
 
 .slogan h1{
@@ -67,10 +72,137 @@ header{
     color: white;
     border: none;
     cursor: pointer;
+    box-shadow: 0px 2px 2px rgb(160, 159, 159);
+    transition: transform 0.6s;
+}
+
+.btn-slogan:hover{
+    transform: translateY(-5px);
 }
 
 .img-slogan{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:flex-end;
+    margin-left: 1160px;
+    margin-top: -22%;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 27rem;
+    height: 18rem;
+    box-shadow: 0px 0px 8px rgb(184, 183, 183);
+    cursor: pointer;
+}
+
+.products{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.tarjeta-title{
+    margin-right: 20rem;
+    color: #2b1909;
+}
+
+.price{
+    font-weight: bold;
+    color: #D87A0C;
+    font-size: large;
+    margin-right: 350px ;
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background: #2b1909;
+    margin-top: 40px;
+    color: white;
+    height: 180px;
+    
+}
+
+.footer-1{
+    margin-left: 110px;
+}
+
+.footer-title{
+    margin-top: 40px;
+    margin-right: 220px;
+}
+
+.footer-description{
+    margin-top: 10px;
+}
+
+.footer-2{
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 40px;
+    text-align: start;
+}
+
+.footer-position{
+    margin-top: 6px;
+}
+
+.footer-number{
+    margin-top: 6px;
+}
+
+.footer-email{
+    margin-top: 6px;
+}
+
+.footer-3{
+    margin-left: 500px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.facebook{
+    margin-top: 6px;
+    color: rgb(1, 137, 248);
+    cursor: pointer;
+}
+
+.instagram{
+    margin-top: 6px;
+    color: #E1306C;
+    cursor: pointer;
+}
+
+.twitter{
+    margin-top: 6px;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-copy{
+    background: #160d03;
+    color: white;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    header{
+        flex-direction: row;
+        text-align: center;
+    }
 }
